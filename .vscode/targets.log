@@ -1,0 +1,459 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# Make data base, printed on Fri Aug 05 16:15:18 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PLATFORMIO_IDE = 2.5.1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VENDORED_BUILD = windows.1
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PIO_SCRIPT = C:\Users\DELL\.platformio\penv\Scripts
+# environment
+LINES = 30
+# environment
+CMDER_INIT_START =  8:58:07.10
+# environment
+CONEMUANSILOG = 
+# environment
+COLUMNS = 108
+# environment
+USER_MAJOR = 2
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# environment
+ESP_IDF_TOOL = C:\Users\DELL\esp\esp-idf\tools
+# environment
+LIB_PROFILE = call "C:\Cmder\vendor\lib\lib_profile.cmd"
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Developments/DSA
+# default
+SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
+# environment
+LIB_CONSOLE = call "C:\Cmder\vendor\lib\lib_console.cmd"
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\DELL\OneDrive
+# environment
+MOSQUITTO_DIR = C:\Program Files\mosquitto
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile
+MAKEFILE_LIST := 
+# environment
+CONEMUPID = 23160
+# environment
+CONEMUARGS = 
+# environment
+TMP = C:\Users\DELL\AppData\Local\Temp
+# environment
+PRINT_DEBUG = if 0 gtr 0 call "C:\Cmder\vendor\lib\lib_console.cmd" debug_output
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+CONEMUANSI = ON
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Developments\DSA
+# environment
+USERDOMAIN = TUANLATITUDE749
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+GIT_VERSION_USER = 2.29.2.windows.3
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+CURRENARGU = /setpath
+# environment
+USER_PATCH = 2
+# automatic
++F = $(notdir $+)
+# environment
+VERBOSE_OUTPUT = 0
+# environment
+CMDER_ROOT = C:\Cmder
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133033880819665818
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
+# environment
+USERPROFILE = C:\Users\DELL
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+CONEMUWORKDIR = C:\Users\DELL
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+PLINK_PROTOCOL = ssh
+# environment
+POSITION = append
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+CONEMUHWND = 0x00640A84
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1656_ILKKBYVZWGZXXHCL
+# environment
+VENDORED_MAJOR = 2
+# environment
+OS = Windows_NT
+# environment
+MAX_DEPTH = 1
+# environment
+SVN_SSH = C:\\Cmder\\vendor\\git-for-windows\\bin\\ssh.exe
+# environment
+FEFLAGNAME = $(subst ,, )
+# environment
+NIX_TOOLS = 1
+# environment
+ADD_PATH = C:\Cmder
+# environment
+CMDER_SHELL = cmd
+# environment
+USER_MINOR = 29
+# environment
+COMPUTERNAME = TUANLATITUDE749
+# environment
+GIT_EXECUTABLE = C:\Program Files\Git\cmd\git.exe
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+ESP_IDF_ENV = C:\Users\DELL\.espressif\python_env\idf4.4_py3.8_env\Scripts
+# environment
+CONEMUARGS2 = 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+AVR32_HOME = C:\WinAVR-20100110
+# environment
+USERNAME = DELL
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\Users\DELL
+# environment
+PRINT_ERROR = call "C:\Cmder\vendor\lib\lib_console.cmd" show_error
+# environment
+CMDER_INIT_END =  8:58:10.51
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\DELL\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+FENOT = false
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\TUANLATITUDE749
+# environment
+DEPTH = 1
+# environment
+PRINT_VERBOSE = if 0 gtr 0 call "C:\Cmder\vendor\lib\lib_console.cmd" verbose_output
+# environment
+OLD_PATH = C:\Cmder\vendor\git-for-windows\cmd;C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Cmder\vendor\conemu-maximus5;C:\Cmder\vendor\conemu-maximus5\ConEmu;C:\Python310\Scripts\;C:\Python310\;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\SDCC\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\OpenSSL-Win64\bin;C:\Cmder\vendor\git-for-windows\mingw64\bin;C:\Cmder\vendor\git-for-windows\usr\bin;C:\Cmder\vendor\bin;C:\Cmder\bin
+# environment
+ONEDRIVECONSUMER = C:\Users\DELL\OneDrive
+# environment
+CONEMUWORKDRIVE = C:
+# environment
+GIT_VERSION_VENDORED = 2.34.0.windows.1
+# environment
+CMDER_CLINK = 1
+# environment
+CONEMUPALETTE = Monokai
+# environment
+PLATFORMIO_PATH = C:\Users\DELL\.platformio\penv\Scripts;C:\Users\DELL\.platformio\penv;C:\Users\DELL\.platformio\python3;C:\Cmder\vendor\git-for-windows\cmd;C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Cmder\vendor\conemu-maximus5;C:\Cmder\vendor\conemu-maximus5\ConEmu;C:\Python310\Scripts\;C:\Python310\;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\SDCC\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\OpenSSL-Win64\bin;C:\Cmder\vendor\git-for-windows\mingw64\bin;C:\Cmder\vendor\git-for-windows\usr\bin;C:\Cmder\vendor\bin;C:\Cmder\bin;C:\Cmder;C:\Cmder\vendor\git-for-windows\cmd;C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Cmder\vendor\conemu-maximus5;C:\Cmder\vendor\conemu-maximus5\ConEmu;C:\Python310\Scripts\;C:\Python310\;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\SDCC\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\OpenSSL-Win64\bin;C:\Cmder\vendor\git-for-windows\mingw64\bin;C:\Cmder\vendor\git-for-windows\usr\bin;C:\Cmder\vendor\bin;C:\Cmder\bin;C:\Cmder
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Cmder\vendor\git-for-windows\cmd;C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Cmder\vendor\conemu-maximus5;C:\Cmder\vendor\conemu-maximus5\ConEmu;C:\Python310\Scripts\;C:\Python310\;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\SDCC\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\OpenSSL-Win64\bin;C:\Cmder\vendor\git-for-windows\mingw64\bin;C:\Cmder\vendor\git-for-windows\usr\bin;C:\Cmder\vendor\bin;C:\Cmder\bin;C:\Cmder
+# environment
+USER_ALIASES = C:\Cmder\config\user_aliases.cmd
+# environment
+CONEMUCONFIG = 
+# environment
+VENDORED_PATCH = 0
+# environment
+CMDER_CONFIGURED = 1
+# environment
+PATH_POSITION = append
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+LIB_PATH = call "C:\Cmder\vendor\lib\lib_path.cmd"
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CMDER_ALIASES = 1
+# environment
+FAST_INIT = 0
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# environment
+ANSICON_DEF = 7
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+CONEMUDIR = C:\Cmder\vendor\conemu-maximus5
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+CEXEC = "C:\Cmder\vendor\bin\cexec.cmd"
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\94d617bfb1ac0c411605adcb3cbd2f14-1.69.2-main-sock
+# environment
+USER_BUILD = windows.3
+# environment
+HOMEPATH = \Users\DELL
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = CLINK $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+IDF_PATH = C:\Users\DELL\.platformio\packages\framework-espidf
+# environment
+CCALL = call "C:\Cmder\vendor\bin\cexec.cmd"
+# environment
+TIME_INIT = 0
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+CONEMUSERVERPID = 26460
+# environment
+VENDORED_MINOR = 34
+# environment
+FOUND = 1
+# environment
+CONEMUDRIVE = C:
+# environment
+ANSICON = 108x1000 (108x30)
+# environment
+CONEMUDRAWHWND = 0x00530852
+# environment
+CONEMUHOOKS = Enabled
+# environment
+ARCHITECTURE_BITS = 64
+# environment
+APPDATA = C:\Users\DELL\AppData\Roaming
+# environment
+CLINK_ARCHITECTURE = x64
+# environment
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+# environment
+TEMP = C:\Users\DELL\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+GIT_LOCALE = "C:\Cmder\vendor\git-for-windows\usr\bin\locale.exe"
+# environment
+CONEMUBASEDIRSHORT = C:\Cmder\vendor\conemu-maximus5\ConEmu
+# environment
+LOCALAPPDATA = C:\Users\DELL\AppData\Local
+# environment
+CONEMUBACKHWND = 0x001D0948
+# environment
+CONEMUBASEDIR = C:\Cmder\vendor\conemu-maximus5\ConEmu
+# environment
+LC_ALL = C
+# environment
+ALIASES = C:\Cmder\config\user_aliases.cmd
+# environment
+DEBUG_OUTPUT = 0
+# environment
+LIB_GIT = call "C:\Cmder\vendor\lib\lib_git.cmd"
+# automatic
+^F = $(notdir $^)
+# environment
+ADD_TO_PATH = C:\Cmder
+# environment
+GIT_INSTALL_ROOT = C:\Cmder\vendor\git-for-windows
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# environment
+CONEMUTASK = {cmd::Cmder}
+# environment
+CONEMUCFGDIR = C:\Cmder\vendor\conemu-maximus5
+# environment
+CMDER_USER_FLAGS = $(subst ,, )
+# environment
+MAKELEVEL := 0
+# environment
+FIND_QUERY = C:\\Cmder
+# environment
+LIB_BASE = call "C:\Cmder\vendor\lib\lib_base.cmd"
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = cygwin
+# environment
+VSCODE_PID = 1656
+# environment
+CONEMUBUILD = 210912
+# environment
+USERDOMAIN_ROAMINGPROFILE = TUANLATITUDE749
+# variable set hash-table stats:
+# Load=180/1024=18%, Rehash=0, Collisions=26/196=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Cmder\vendor\conemu-maximus5 (key C:/Cmder/vendor/conemu-maximus5, mtime 1659664686): 10 files, no impossibilities.
+# . (key c:/Developments/DSA, mtime 1659690918): 5 files, no impossibilities.
+# C:\Python310\ (key C:/Python310/, mtime 1659263342): 20 files, no impossibilities.
+# C:\Cmder\vendor\git-for-windows\cmd (key C:/Cmder/vendor/git-for-windows/cmd, mtime 1642367155): 7 files, no impossibilities.
+# C:\Python310\Scripts\ (key C:/Python310/Scripts/, mtime 1659263346): 15 files, no impossibilities.
+# C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1635445328): 76 files, no impossibilities.
+# C:\Cmder\vendor\conemu-maximus5\ConEmu (key C:/Cmder/vendor/conemu-maximus5/ConEmu, mtime 1631482789): 51 files, no impossibilities.
+# C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1623493815): 99 files, no impossibilities so far.
+# C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts (key C:/Cmder/vendor/conemu-maximus5/ConEmu/Scripts, mtime 1628859638): 5 files, no impossibilities.
+
+# 288 files, no impossibilities in 9 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Fri Aug 05 16:15:18 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+
